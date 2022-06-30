@@ -1,0 +1,48 @@
+
+button
+{
+    margin-top: 20px;
+
+    width: 150px;
+    height: 40px;
+
+}
+button:focus,button:active,button:hover
+{
+    background-color: blue !important;
+    transition: 0.5s ease-in;
+    outline: none;
+
+}
+.section
+{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("./city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.cards
+{
+    background-color:rgba(245, 245, 245, 0.863);
+    max-width: 50vw;
+    max-height: 30vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 8%;
+    box-shadow: 5px 5px;
+    text-align: center;
+    
+}
